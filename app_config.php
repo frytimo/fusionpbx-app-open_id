@@ -117,7 +117,7 @@ $apps[$x]['default_settings'][$y]['default_setting_uuid'] = "40a2a453-6ff4-402c-
 $apps[$x]['default_settings'][$y]['default_setting_category'] = "open_id";
 $apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "okta_username_mapping";
 $apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-$apps[$x]['default_settings'][$y]['default_setting_value'] = "username=username";
+$apps[$x]['default_settings'][$y]['default_setting_value'] = "username=user_email";
 $apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 $apps[$x]['default_settings'][$y]['default_setting_description'] = "Map the OKTA OpenID Connect email field to the user_email in the users table column";
 $y++;
